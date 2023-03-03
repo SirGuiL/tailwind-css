@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'arial': 'arial',
         'poppins': 'Poppins'
+      },
+      fontSize: {
+        '12xl': '100px'
       }
     },
   },
