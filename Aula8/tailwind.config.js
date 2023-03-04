@@ -3,13 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        'arial': 'arial',
-        'poppins': 'Poppins'
-      },
-      fontSize: {
-        '12xl': '100px'
-      }
+      backgroundImage: theme => ({
+        'cidade': 'url(../img/bg_cidade.jpg)',
+        'tailwind': 'url(../img/tailwind.png)'
+      })
     },
   },
   plugins: [],

@@ -525,14 +525,6 @@ video {
   height: 12rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .h-96 {
   height: 24rem;
 }
@@ -631,8 +623,36 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-cidade {
+  background-image: url(../img/bg_cidade.jpg);
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.bg-tailwind {
+  background-image: url(../img/tailwind.png);
+}
+
+.from-amber-500 {
+  --tw-gradient-from: #f59e0b;
+  --tw-gradient-to: rgb(245 158 11 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-500 {
+  --tw-gradient-from: #3b82f6;
+  --tw-gradient-to: rgb(59 130 246 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-purple-400 {
+  --tw-gradient-to: #c084fc;
 }
 
 .bg-auto {
@@ -641,6 +661,10 @@ video {
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -655,12 +679,12 @@ video {
   background-position: bottom;
 }
 
-.bg-right-bottom {
-  background-position: right bottom;
-}
-
 .bg-center {
   background-position: center;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
 }
 
 .bg-no-repeat {
