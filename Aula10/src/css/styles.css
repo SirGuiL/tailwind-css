@@ -513,12 +513,28 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .h-20 {
@@ -665,6 +681,15 @@ video {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 85 247 / var(--tw-border-opacity));
 }
 
 .bg-red-800 {
