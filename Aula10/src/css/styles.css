@@ -727,6 +727,27 @@ video {
   background-color: rgb(250 245 255 / var(--tw-bg-opacity));
 }
 
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline-dashed {
+  outline-style: dashed;
+}
+
+.outline-white {
+  outline-color: #fff;
+}
+
+.outline-gray-700 {
+  outline-color: #374151;
+}
+
 .disabled\:bg-red-100:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(254 226 226 / var(--tw-bg-opacity));
