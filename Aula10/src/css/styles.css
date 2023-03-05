@@ -537,6 +537,18 @@ video {
   margin-top: 2.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -675,6 +687,22 @@ video {
 
 .cursor-zoom-out {
   cursor: zoom-out;
+}
+
+.resize-none {
+  resize: none;
+}
+
+.resize-y {
+  resize: vertical;
+}
+
+.resize-x {
+  resize: horizontal;
+}
+
+.resize {
+  resize: both;
 }
 
 .appearance-none {
